@@ -1,4 +1,3 @@
-  GNU nano 6.2                                                                                .vimrc                                                                                          
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
