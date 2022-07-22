@@ -9,7 +9,6 @@ set ai
 set number
 set hlsearch
 set ruler
-highlight Comment ctermfg=blue
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -29,5 +28,8 @@ autocmd FileType cpp nnoremap <F9> :!g++ -std=c++17 -lm -Wall -O2 -static % -o %
 "<leader>r execute c++
 autocmd filetype cpp nnoremap <leader>r :!./%:r<CR>
 
-"<leader>r execute python3
+"<leader>r execute python3 
 autocmd filetype python nnoremap <leader>r :!python3 %<CR>
+
+colorscheme peachpuff
+highlight Comment ctermfg=blue
